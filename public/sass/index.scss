@@ -1,0 +1,34 @@
+@import "compass/reset";
+
+#container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+*, *:after, *:before{
+  box-sizing: border-box;
+}
+
+#wrapper{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -12%;
+  margin-top: -12%;
+  height: 25%;
+  width: 25%;
+  text-align: center;
+  padding: 24px;
+  font-size: 50px;
+}
+
+#dico{
+  display: block;
+  margin-bottom: 20px;
+}
+
+.char{
+  margin-bottom: 20px;
+}
