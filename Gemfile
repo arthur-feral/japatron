@@ -6,3 +6,4 @@ gem "sinatra"
 gem 'pry-byebug'
 gem 'require_all'
 gem "compass"
+gem "foreman"

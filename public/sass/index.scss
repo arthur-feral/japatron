@@ -32,3 +32,29 @@
 .char{
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 1240px){
+
+}
+
+@media screen and (max-width: 970px){
+  #wrapper{
+    width: 100%;
+    left:0;
+    top: 0;
+    margin: 0;
+    padding: 16px;
+  }
+
+  #dico{
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 760px){
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2){
+
+}

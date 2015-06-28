@@ -79,6 +79,9 @@
     $('#dico').click(function(e){
       game.switchDico();
     });
+    $(document).click(function(){
+      game.nextStep();
+    });
     $(document).focus();
   });
 

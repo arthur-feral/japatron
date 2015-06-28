@@ -101,3 +101,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .char {
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 970px) {
+  /* line 41, ../sass/index.scss */
+  #wrapper {
+    width: 100%;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 16px;
+  }
+
+  /* line 49, ../sass/index.scss */
+  #dico {
+    margin-bottom: 50px;
+  }
+}
